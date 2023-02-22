@@ -1,0 +1,39 @@
+body,html{
+    overflow-x: hidden;
+}
+.section-b{
+    .container{
+        .row{
+            .col-12{
+                p{
+                    font-size:22px;
+                }
+                a{
+                    font-size: 18px;
+                }
+            }
+            .col-md-6{
+                img{
+                    clip-path: polygon(63% 0, 100% 0, 100% 20%, 100% 44%, 66% 77%, 25% 81%, 19% 60%, 34% 24%);
+                }
+            }
+        }
+    }
+}
+footer{
+    .container{
+        .row{
+            .col-sm-12{
+                ul{
+                    li{
+                        color: rgb(113,141,176);
+                        &:hover{
+                            color: rgb(23,95,255);
+                            cursor: pointer;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

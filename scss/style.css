@@ -1,0 +1,22 @@
+body, html {
+  overflow-x: hidden;
+}
+
+.section-b .container .row .col-12 p {
+  font-size: 22px;
+}
+.section-b .container .row .col-12 a {
+  font-size: 18px;
+}
+.section-b .container .row .col-md-6 img {
+  -webkit-clip-path: polygon(63% 0, 100% 0, 100% 20%, 100% 44%, 66% 77%, 25% 81%, 19% 60%, 34% 24%);
+          clip-path: polygon(63% 0, 100% 0, 100% 20%, 100% 44%, 66% 77%, 25% 81%, 19% 60%, 34% 24%);
+}
+
+footer .container .row .col-sm-12 ul li {
+  color: rgb(113, 141, 176);
+}
+footer .container .row .col-sm-12 ul li:hover {
+  color: rgb(23, 95, 255);
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */

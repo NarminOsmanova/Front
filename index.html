@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./scss/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <img src="./assets/img/logo.svg" width="120" alt="" />
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item me-3">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Landings</a
+                >
+              </li>
+              <li class="nav-item dropdown me-3">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Company
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown me-3">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Account
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown me-3">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Pages
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown me-3">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Blog
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown me-3">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Portfolio
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <button class="btn btn-primary me-3" type="button">
+                Buy now
+              </button>
+              <button class="btn btn-outline-success" id="lang" type="button">
+                AZ
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section class="section-b w-100 h-auto">
+      <div class="container">
+        <div class="row mt-5 mt-md-0">
+          <div
+            class="col-12 col-sm-12 col-md-6 d-flex flex-column justify-content-center"
+          >
+            <h1 class="display-4 fw-semibold item">
+              Turn your ideas <br />
+              into a <span class="text-primary">future</span>
+            </h1>
+            <p class="text-secondary item">
+              Front's feature-rich designed demo pages <br />
+              help you create the best possible product.
+            </p>
+            <div>
+              <button
+                type="button "
+                class="btn btn-primary px-4 py-2 me-4 item"
+              >
+                Get started
+              </button>
+              <a href="#" class="text-decoration-none item"
+                >Learn more <i class="fa-solid fa-chevron-right"></i
+              ></a>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 d-none d-md-block">
+            <img src="./assets/img/img2.jpg" width="640" height="600" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-c w-100 h-auto">
+      <div class="mt-5 mt-md-0 d-flex flex-column justify-content-center align-items-center mb-5">
+        <h2 class="text-center mb-4 items">
+          Learn to develop sites with components and design systems
+        </h2>
+        <ul
+          class="list-unstyled text-secondary d-sm-block d-md-flex text-center"
+        >
+          <li class="me-3 items">
+            <i class="fa-solid fa-check me-2 text-primary"></i>Asynchronous
+            collaboration
+          </li>
+          <li class="me-3 items">
+            <i class="fa-solid fa-check me-2 text-primary"></i>Updates and
+            announcements
+          </li>
+          <li class="items">
+            <i class="fa-solid fa-check me-2 text-primary"></i>Training and team
+            building
+          </li>
+        </ul>
+      </div>
+      <div class="contanier h-auto">
+        <div
+          class="row g-5 d-flex justify-content-center align-items-center mb-5"
+        >
+          <div
+            class="col-12 col-sm-12 col-md-3 d-flex flex-column align-items-center justify-content-center"
+          >
+            <div class="card shadow border-0">
+              <img src="./assets/img/img1.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Front App</h5>
+                <p class="card-text text-secondary card1">
+                  Front App is an easier way to search on Android.
+                </p>
+                <ul class="text-secondary list-unstyled">
+                  <li class="card1">
+                    <i class="fa-solid fa-angle-right me-2"></i>Advanced
+                    Analytics
+                  </li>
+                  <li class="card1">
+                    <i class="fa-solid fa-angle-right me-2"></i>Digital
+                    Marketing
+                  </li>
+                  <li class="pb-4 card1">
+                    <i class="fa-solid fa-angle-right me-2"></i>Organization
+                  </li>
+                </ul>
+                <hr />
+                <a
+                  href="#"
+                  class="text-decoration-none text-secondary fw-bold card1"
+                  >Learn more <i class="fa-solid fa-angle-right"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-12 col-sm-12 col-md-3 d-flex flex-column align-items-center justify-content-center"
+          >
+            <div class="card shadow border-0">
+              <img src="./assets/img/img3.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Front Chat</h5>
+                <p class="card-text text-secondary card2">
+                  Front Chat is a new way to communicate with your team.
+                </p>
+                <ul class="text-secondary list-unstyled">
+                  <li class="card2">
+                    <i class="fa-solid fa-angle-right me-2"></i>Cost
+                    Transformation
+                  </li>
+                  <li class="card2">
+                    <i class="fa-solid fa-angle-right me-2"></i>Customer
+                    Experience
+                  </li>
+                  <li class="pb-4 card2">
+                    <i class="fa-solid fa-angle-right me-2"></i>Mergers and
+                    Acquisitions
+                  </li>
+                </ul>
+                <hr />
+                <a
+                  href="#"
+                  class="text-decoration-none text-secondary fw-bold card2"
+                  >Learn more <i class="fa-solid fa-angle-right"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-12 col-sm-12 col-md-3 d-flex flex-column align-items-center justify-content-center"
+          >
+            <div class="card shadow border-0">
+              <img src="./assets/img/img4.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Front Calendar</h5>
+                <p class="card-text text-secondary card3">
+                  Discover an easier way to manage contacts, sales and grow
+                  lasting relationships.
+                </p>
+                <ul class="text-secondary list-unstyled">
+                  <li class="card3">
+                    <i class="fa-solid fa-angle-right me-2"></i>Enterprise
+                    Technology
+                  </li>
+                  <li class="card3">
+                    <i class="fa-solid fa-angle-right me-2"></i>Private Equity
+                  </li>
+                  <li class="card3">
+                    <i class="fa-solid fa-angle-right me-2"></i>Sustainability
+                  </li>
+                </ul>
+                <hr />
+                <a
+                  href="#"
+                  class="card3 text-decoration-none text-secondary fw-bold"
+                  >Learn more <i class="fa-solid fa-angle-right"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-d w-100 h-auto py-5">
+      <div class="container bg-light py-5">
+        <div>
+          <h2 class="text-center first">
+            Wow your audience from the first second
+          </h2>
+          <p class="text-center mb-4 first">
+            The powerful and flexible theme for all kinds of businesses
+          </p>
+          <ul class="list-unstyled d-flex justify-content-center">
+            <li class="me-3 first">
+              <i class="fa-solid fa-check me-3 text-primary"></i>Responsive
+            </li>
+            <li class="me-3 first">
+              <i class="fa-solid fa-check me-3 text-primary"></i>5-star support
+            </li>
+            <li class="first">
+              <i class="fa-solid fa-check me-3 text-primary"></i>Constant
+              updates
+            </li>
+          </ul>
+        </div>
+        <div class="row g-3 my-5">
+          <div class="col-12 col-sm-12 col-md-7">
+            <img
+              src="./assets/img/img6.jpg"
+              width="600"
+              class="shadow img-fluid rounded"
+              alt=""
+            />
+          </div>
+          <div class="col-12 col-sm-12 col-md-5">
+            <h2 class="tools">Collaborative tools to design user experience</h2>
+            <p class="text-secondary tools">
+              We help businesses bring ideas to life in the digital world, by
+              designing and implementing the technology tools that they need to
+              win.
+            </p>
+            <ul class="text-secondary lh-lg list-unstyled">
+              <li class="tools">
+                <i class="fa-solid fa-check me-3 text-primary"></i>Less routine
+                – more creativity
+              </li>
+              <li class="tools">
+                <i class="fa-solid fa-check me-3 text-primary"></i>Hundreds of
+                thousands saved
+              </li>
+              <li class="tools">
+                <i class="fa-solid fa-check me-3 text-primary"></i>Scale budgets
+                efficiently
+              </li>
+            </ul>
+            <button type="button" class="btn btn-primary tools">
+              Get started
+            </button>
+            <hr />
+            <p class="text-secondary tools">Trusted by leading companies</p>
+            <img
+              src="./assets/img/fitbit-dark.svg"
+              width="67"
+              class="me-5"
+              alt=""
+            />
+            <img
+              src="./assets/img/forbes-dark.svg"
+              width="67"
+              class="me-5"
+              alt=""
+            />
+            <img
+              src="./assets/img/mailchimp-dark.svg"
+              width="67"
+              class="me-5"
+              alt=""
+            />
+            <img src="./assets/img/layar-dark.svg" width="67" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-e w-100 h-auto my-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-sm-12 col-md-5 mb-5">
+            <img src="./assets/img/img31.jpg" class="rounded" alt="" />
+          </div>
+          <div
+            class="col-12 col-sm-12 col-md-6 d-flex flex-column justify-content-center"
+          >
+            <img src="./assets/img/mailchimp-primary.svg" width="120" alt="" />
+            <p class="fw-normal fs-3 test">
+              " I'm absolutely floored by the level of care and attention to
+              detail the team at Htmlstream have put into this theme and for one
+              can guarantee that I will be a return customer. "
+            </p>
+            <h5 class="fw-semibold">Lewis</h5>
+            <p class="text-secondary test">
+              Senior Director of Operations at Mailchimp
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-f">
+      <div class="container bg-light py-5 mb-5">
+        <div class="row">
+          <div class="col-12 col-sm-12 col-md-4">
+            <h2 class="text-center display-5 fw-semibold">
+              <i class="fa-solid text-danger me-3 fa-arrow-down"></i>47%
+            </h2>
+            <p class="text-center text-secondary text">
+              fewer meetings across <br />
+              organizations
+            </p>
+          </div>
+          <div class="col-12 col-sm-12 col-md-4">
+            <h2 class="text-center display-5 fw-semibold">
+              <i class="fa-solid text-success me-3 fa-arrow-up"></i>23%
+            </h2>
+            <p class="text-center text-secondary text">
+              increase in traffic on <br />
+              webpages with Looms
+            </p>
+          </div>
+          <div class="col-12 col-sm-12 col-md-4">
+            <h2 class="text-center display-5 fw-semibold">
+              <i class="fa-solid text-success me-3 fa-arrow-up"></i>9.3%
+            </h2>
+            <p class="text-center text-secondary text">
+              boost in reply rates across <br />
+              sales outreach
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-g w-100">
+      <div class="container w-100">
+        <h2 class="text-center mb-5 sec-text">Discover more</h2>
+        <div class="row">
+          <div class="col-12 col-sm-12 col-md-4">
+            <img
+              src="./assets/img/img33.jpg"
+              class="rounded mb-4"
+              width="340"
+              alt=""
+            />
+            <h6 class="text-secondary sec-text">READ THE BLOG</h6>
+            <h5 class="sec-text">Have a meaningful impact</h5>
+            <p class="text-secondary sec-text">
+              Opportunities to Front who have proven to be good at executing on
+              them.
+            </p>
+          </div>
+          <div class="col-12 col-sm-12 col-md-4">
+            <img
+              src="./assets/img/img34.jpg"
+              class="rounded mb-4"
+              width="340"
+              alt=""
+            />
+            <h6 class="text-secondary sec-text">READ THE BLOG</h6>
+            <h5 class="sec-text">Documentation</h5>
+            <p class="text-secondary sec-text">
+              Whether you're a startup or a global enterprise, learn how to
+              integrate with Front.
+            </p>
+          </div>
+          <div class="col-12 col-sm-12 col-md-4 mb-5">
+            <img
+              src="./assets/img/img35.jpg"
+              class="rounded mb-4"
+              width="340"
+              alt=""
+            />
+            <h6 class="text-secondary sec-text">LEARN ABOUT OTHER SOLUTIONS</h6>
+            <h5 class="sec-text">Explore the Snippets tool</h5>
+            <p class="text-secondary sec-text">
+              Quickly Front sample components, copy-paste codes.
+            </p>
+          </div>
+        </div>
+        <div
+          class="d-inline-flex justify-content-center align-items-center w-100"
+        >
+          <div class="border rounded-5 px-4 mb-5 pt-3">
+            <p class="text-secondary sec-text">
+              Want to read more?
+              <a href="#" class="sec-text text-decoration-none fw-semibold"
+                >Go here <i class="fa-solid fa-chevron-right"></i
+              ></a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="w-100 h-auto bg-light">
+      <div class="container py-5">
+        <div class="row g-3 d-flex justify-content-center border-bottom">
+          <div class="col-12 col-sm-12 col-md-3">
+            <img src="./assets/img/logo.svg" class="mb-4" width="120" alt="" />
+            <ul class="list-unstyled lh-lg">
+              <li >
+                <i class="fa-solid fa-location-dot"></i> 153 Williamson Plaza,
+                Maggieberg
+              </li>
+              <li >
+                <i class="fa-solid fa-phone-volume"></i> +1 (062) 109-9222
+              </li>
+            </ul>
+          </div>
+          <div class="col-sm-12 col-md-2">
+            <h6 class="text1">Company</h6>
+            <ul class="list-unstyled lh-lg">
+              <li class="text1">About</li>
+              <li class="text1">Careers We're hiring</li>
+              <li class="text1">Blog</li>
+              <li class="text1">
+                Customers <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </li>
+              <li class="text1">Hire us</li>
+            </ul>
+          </div>
+          <div class="col-sm-12 col-md-2">
+            <h6 class="text2">Features</h6>
+            <ul class="list-unstyled lh-lg">
+              <li class="text2">
+                Press <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </li>
+              <li class="text2">Release Notes</li>
+              <li class="text2">Integrations</li>
+              <li class="text2">Pricing</li>
+            </ul>
+          </div>
+          <div class="col-sm-12 col-md-2">
+            <h6 class="text3">Documentation</h6>
+            <ul class="list-unstyled lh-lg">
+              <li class="text3">Support</li>
+              <li class="text3">Docs</li>
+              <li class="text3">Status</li>
+              <li class="text3">API Reference</li>
+              <li class="text3">Tech Requirements</li>
+            </ul>
+          </div>
+          <div class="col-sm-12 col-md-2">
+            <h6 class="text4">Resources</h6>
+            <ul class="list-unstyled lh-lg">
+              <li class="text4"><i class="fa-solid fa-circle-question"></i> Help</li>
+              <li class="text4"><i class="fa-solid fa-circle-user"></i> Your Account</li>
+            </ul>
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col-sm-12 col-md-9">
+            <p class="text-secondary text5">Privacy & Policy / Terms / Site Map</p>
+          </div>
+          <div class="col-sm-12 col-md-3">
+            <i class="fa-brands text-secondary fa-facebook"></i>
+            <i class="fa-brands text-secondary fa-google"></i>
+            <i class="fa-brands text-secondary fa-twitter"></i>
+            <i class="fa-brands text-secondary fa-github"></i>
+          </div>
+        </div>
+        <p class="text-center mt-5 text-secondary text5">© Front. 2021 Htmlstream. All rights reserved.</p>
+        <p class="text-center text-secondary text5">
+          When you visit or interact with our sites, services or tools, we or
+          our authorised service providers may use cookies for storing
+          information to help provide you with a better, faster and safer
+          experience and for marketing purposes.
+        </p>
+      </div>
+    </footer>
+
+    <script
+      src="https://kit.fontawesome.com/d38369fb5a.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+    <script type="module" src="./js/script.js"></script>
+  </body>
+</html>
